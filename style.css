@@ -897,3 +897,7 @@ body{
     padding: 14px;
     border-radius: 12px;
 }
+
+.contact-info p{
+    margin: 0;
+}
