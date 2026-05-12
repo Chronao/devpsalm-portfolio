@@ -901,3 +901,9 @@ body{
 .contact-info p{
     margin: 0;
 }
+
+@media(max-width: 768px){
+    .resume-preview{
+        display: none;
+    }
+}
