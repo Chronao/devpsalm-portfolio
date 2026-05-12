@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DEVPsalm Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css"/>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="navbar">
+    <a href="#home" class="logo">DEV<span>Psalm</span></a>
+
+    <div class="menu-btn" id="menu-btn">
+        ☰
+    </div>
+
+    <nav id="nav-menu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#research" class="nav-link">Research</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#resume" class="nav-link">Resume</a>
+        <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero reveal" id="home">
+
+        <div class="hero-content">
+
+        <!-- LEFT SIDE -->
+        <div class="hero-text">
+
+            <p class="intro">Hello, I'm</p>
+
+            <h1>
+            Psalm Benedict <br>
+            Theodore Del Rosario
+            </h1>
+
+            <h2>
+            Computer Engineering Student &
+            <span>Aspiring Software Developer</span>
+            </h2>
+
+            <p class="description">
+            Passionate about software development, AI systems,
+            desktop applications, and mobile technologies.
+            Focused on building practical and user-oriented solutions.
+            </p>
+
+            <div class="hero-buttons">
+            <a href="assets/resume/DEL ROSARIO, PSALM - CV.pdf" download class="btn primary-btn">
+                Download CV
+            </a>
+
+            <a href="#contact" class="btn secondary-btn">
+                Contact Me
+            </a>
+            </div>
+
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="hero-image">
+
+            <div class="image-wrapper">
+            <img src="assets/profile/2x2 pic.png" alt="Profile Picture">
+            </div>
+
+        </div>
+
+        </div>
+
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about reveal" id="about">
+    <div class="section-header">
+        <p>Get To Know More</p>
+        <h2>About Me</h2>
+    </div>
+
+    <div class="about-container">
+        <div class="about-card">
+        <h3>Who I Am</h3>
+        <p>
+            I am Psalm Benedict Theodore Del Rosario, a Computer Engineering student
+            with a strong interest in software development, desktop applications,
+            mobile development, and artificial intelligence.
+        </p>
+
+        <p>
+            I enjoy building practical technology solutions that can help users solve
+            real-world problems. My experience includes creating Windows desktop
+            applications, Flutter mobile applications, and AI-based systems using
+            machine learning.
+        </p>
+
+        <p>
+            As an aspiring software developer, I aim to continuously improve my
+            technical skills, gain real industry experience, and contribute to
+            meaningful projects in the field of technology.
+        </p>
+        </div>
+    </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills reveal" id="skills">
+    <div class="section-header">
+        <p>What I Can Do</p>
+        <h2>Skills</h2>
+    </div>
+
+    <div class="skills-container">
+
+        <div class="skill-card">
+        <h3>Programming Languages</h3>
+        <div class="skill-tags">
+            <span>C</span>
+            <span>C++</span>
+            <span>JavaScript</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Basic PHP</span>
+        </div>
+        </div>
+
+        <div class="skill-card">
+        <h3>Development</h3>
+        <div class="skill-tags">
+            <span>Windows Application Development</span>
+            <span>Flutter Android Development</span>
+            <span>Desktop App Development</span>
+        </div>
+        </div>
+
+        <div class="skill-card">
+        <h3>Machine Learning / AI</h3>
+        <div class="skill-tags">
+            <span>TensorFlow</span>
+            <span>Keras</span>
+            <span>CNN Image Classification</span>
+            <span>AI Integration</span>
+        </div>
+        </div>
+
+        <div class="skill-card">
+        <h3>Databases & Tools</h3>
+        <div class="skill-tags">
+            <span>Firebase</span>
+            <span>MySQL</span>
+            <span>Microsoft Office</span>
+            <span>Google Workspace</span>
+        </div>
+        </div>
+
+        <div class="skill-card">
+        <h3>Electronics</h3>
+        <div class="skill-tags">
+            <span>Basic Circuit Debugging</span>
+            <span>Electronics Troubleshooting</span>
+        </div>
+        </div>
+
+        <div class="skill-card">
+        <h3>Professional Skills</h3>
+        <div class="skill-tags">
+            <span>Debugging & Testing</span>
+            <span>Technical Documentation</span>
+            <span>Problem Solving</span>
+            <span>Attention to Detail</span>
+        </div>
+        </div>
+
+    </div>
+    </section>
+
+    <!-- PROJECTS / EXPERIENCE SECTION -->
+    <section class="projects reveal" id="projects">
+    <div class="section-header">
+        <p>My Work</p>
+        <h2>Projects & Experience</h2>
+    </div>
+
+    <div class="project-group-title">
+        <h3>Featured Projects</h3>
+    </div>
+
+    <div class="projects-container">
+
+        <div class="project-card featured">
+        <div class="project-image">
+            <img src="assets/projects/codesync.png" alt="CodeSync Screenshot">
+        </div>
+
+        <div class="project-content">
+            <h3>CodeSync</h3>
+            <h4>C/C++ Collaborative Coding Desktop Application</h4>
+            <p>
+            Developed a Windows desktop application that allows users to write,
+            compile, and run C and C++ programs. The system supports individual
+            and collaborative coding sessions with real-time interaction between users.
+            </p>
+
+            <div class="project-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Firebase</span>
+            <span>Windows EXE</span>
+            </div>
+        </div>
+        </div>
+
+        <div class="project-card featured">
+        <div class="project-image">
+            <img src="assets/projects/rotspot.jpg" alt="RotSpot Screenshot">
+        </div>
+
+        <div class="project-content">
+            <h3>RotSpot</h3>
+            <h4>AI-Based Fruit and Vegetable Freshness Classifier</h4>
+            <p>
+            Developed a Flutter Android application using a Convolutional Neural
+            Network to classify fruits and vegetables as fresh or rotten through
+            image input and real-time prediction.
+            </p>
+
+            <div class="project-tags">
+            <span>Flutter</span>
+            <span>TensorFlow</span>
+            <span>Keras</span>
+            <span>CNN</span>
+            <span>AI</span>
+            </div>
+        </div>
+        </div>
+
+    </div>
+
+    <div class="project-group-title">
+        <h3>Other Collaborative & Embedded Projects</h3>
+    </div>
+
+    <div class="mini-projects-container">
+
+        <div class="mini-project-card">
+        <h3>Flood Warning System</h3>
+        <p>
+            Developed a flood monitoring system using ESP32, siren, waterproof
+            ultrasonic sensor, rain sensor, and Telegram notification integration.
+        </p>
+        <div class="project-tags">
+            <span>ESP32</span>
+            <span>Telegram</span>
+            <span>Ultrasonic Sensor</span>
+            <span>Rain Sensor</span>
+        </div>
+        </div>
+
+        <div class="mini-project-card">
+        <h3>Automatic Plant Watering System</h3>
+        <p>
+            Built an Arduino-based watering system using a pump and moisture sensor,
+            combined with AutoCAD design and laser-cut enclosure fabrication.
+        </p>
+        <div class="project-tags">
+            <span>Arduino</span>
+            <span>Moisture Sensor</span>
+            <span>Pump</span>
+            <span>AutoCAD</span>
+            <span>Laser Cutting</span>
+        </div>
+        </div>
+
+        <div class="mini-project-card">
+        <h3>Multi-Game Embedded System</h3>
+        <p>
+            Created an Arduino game system with an LCD/OLED display featuring
+            Brick Breaker and a Flappy Bird-inspired game, including menu,
+            high score, and game over systems.
+        </p>
+        <div class="project-tags">
+            <span>Arduino</span>
+            <span>Embedded System</span>
+            <span>Game Logic</span>
+            <span>LCD/OLED</span>
+        </div>
+        </div>
+
+        <div class="mini-project-card">
+        <h3>Touch Sensor Dino Game</h3>
+        <p>
+            Designed and built a custom touch sensor integrated with Arduino and
+            a 16x2 LCD, used as the main control for a Chrome Dino-inspired game.
+        </p>
+        <div class="project-tags">
+            <span>Arduino</span>
+            <span>Touch Sensor</span>
+            <span>16x2 LCD</span>
+            <span>Embedded Game</span>
+        </div>
+        </div>
+
+    </div>
+
+    <div class="project-group-title">
+        <h3>Leadership Experience</h3>
+    </div>
+
+    <div class="experience-card">
+        <h3>Vice President for Internal Affairs</h3>
+        <h4>ICpEP.SE BISU-MC Chapter | 2024 - 2025</h4>
+        <p>
+        Served as Vice President for Internal Affairs, contributing to student
+        organization activities, internal coordination, leadership tasks, and
+        member engagement within the Computer Engineering student community.
+        </p>
+    </div>
+    </section>
+
+    <!-- RESEARCH SECTION -->
+    <section class="research reveal" id="research">
+    <div class="section-header">
+        <p>Academic Work</p>
+        <h2>Research / Thesis</h2>
+    </div>
+
+    <div class="research-container">
+
+        <div class="research-card">
+        <span class="research-status completed">Completed Research</span>
+
+        <h3>RotSpot</h3>
+        <h4>
+            Mobile-Based AI System for Freshness Detection of Fruits and Vegetables
+            Using Convolutional Neural Networks
+        </h4>
+
+        <p>
+            RotSpot is a mobile-based AI system designed to classify fruits and
+            vegetables as fresh or rotten using image processing and Convolutional
+            Neural Networks. The system was developed using TensorFlow and Keras,
+            then integrated into a Flutter Android application for real-time
+            freshness prediction.
+        </p>
+
+        <div class="project-tags">
+            <span>Flutter</span>
+            <span>TensorFlow</span>
+            <span>Keras</span>
+            <span>CNN</span>
+            <span>Image Classification</span>
+        </div>
+
+        <div class="research-buttons">
+            <a href="assets/research/RotSpot_IEEE_PBT.DelRosario.pdf" target="_blank" class="btn primary-btn">
+            View Paper
+            </a>
+
+            <a href="assets/research/RotSpot_IEEE_PBT.DelRosario.pdf" download class="btn secondary-btn">
+            Download Paper
+            </a>
+        </div>
+        </div>
+
+        <div class="research-card">
+        <span class="research-status ongoing">Ongoing Thesis</span>
+
+        <h3>Dried Cacao Beans Quality Sorting System</h3>
+        <h4>
+            AI-Based Classification of Dried Cacao Bean Quality for Agricultural Application
+        </h4>
+
+        <p>
+            This ongoing thesis focuses on developing a system for sorting and
+            classifying different qualities of dried cacao beans. The study is
+            intended to support quality assessment in cacao production and is
+            planned to be conducted in collaboration with Sagbayan Chocolate Farm.
+        </p>
+
+        <div class="project-tags">
+            <span>Machine Learning</span>
+            <span>Image Classification</span>
+            <span>Agriculture Technology</span>
+            <span>Cacao Beans</span>
+            <span>Ongoing</span>
+        </div>
+        </div>
+
+    </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="services reveal" id="services">
+    <div class="section-header">
+        <p>What I Offer</p>
+        <h2>Services</h2>
+    </div>
+
+    <div class="services-container">
+
+        <div class="service-card">
+        <div class="service-icon">💻</div>
+
+        <h3>Desktop Application Development</h3>
+
+        <p>
+            Development of Windows-based desktop applications using modern
+            programming tools and technologies with functional and user-friendly interfaces.
+        </p>
+        </div>
+
+        <div class="service-card">
+        <div class="service-icon">📱</div>
+
+        <h3>Flutter Mobile Development</h3>
+
+        <p>
+            Building Android mobile applications using Flutter with clean UI,
+            responsive layouts, and practical functionality.
+        </p>
+        </div>
+
+        <div class="service-card">
+        <div class="service-icon">🤖</div>
+
+        <h3>AI & Machine Learning Integration</h3>
+
+        <p>
+            Integration of machine learning models such as CNN image classification
+            systems into software and mobile applications.
+        </p>
+        </div>
+
+        <div class="service-card">
+        <div class="service-icon">🌐</div>
+
+        <h3>Basic Web Development</h3>
+
+        <p>
+            Creation of responsive and modern websites using HTML, CSS, and JavaScript
+            with clean and professional designs.
+        </p>
+        </div>
+
+        <div class="service-card">
+        <div class="service-icon">🔌</div>
+
+        <h3>Embedded & Arduino Projects</h3>
+
+        <p>
+            Development of Arduino and ESP32-based systems involving sensors,
+            automation, LCD/OLED displays, and embedded game systems.
+        </p>
+        </div>
+
+        <div class="service-card">
+        <div class="service-icon">📝</div>
+
+        <h3>Technical Documentation</h3>
+
+        <p>
+            Preparation of technical documents, project reports,
+            system documentation, and research-related materials.
+        </p>
+        </div>
+
+    </div>
+    </section>
+
+    <!-- RESUME SECTION -->
+    <section class="resume reveal" id="resume">
+    <div class="section-header">
+        <p>My Background</p>
+        <h2>Resume / CV</h2>
+    </div>
+
+    <div class="resume-container">
+        <div class="resume-card">
+        <h3>View or Download My CV</h3>
+
+        <p>
+            You can view my curriculum vitae directly through the website or download
+            a copy for internship, job, or project-related opportunities.
+        </p>
+
+        <div class="resume-buttons">
+            <a href="assets/resume/DEL ROSARIO, PSALM - CV.pdf" target="_blank" class="btn primary-btn">
+            View CV
+            </a>
+
+            <a href="assets/resume/DEL ROSARIO, PSALM - CV.pdf" download class="btn secondary-btn">
+            Download CV
+            </a>
+        </div>
+        </div>
+
+        <iframe 
+        src="assets/resume/DEL ROSARIO, PSALM - CV.pdf"
+        class="resume-preview">
+        </iframe>
+    </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact reveal" id="contact">
+    <div class="section-header">
+        <p>Get In Touch</p>
+        <h2>Contact Me</h2>
+    </div>
+
+    <div class="contact-container">
+
+        <div class="contact-card">
+        <h3>Let’s Connect</h3>
+
+        <p>
+            Feel free to contact me for internship opportunities, project
+            collaborations, or software development-related inquiries.
+        </p>
+
+        <div class="contact-info">
+            <a href="mailto:psalmdelrosario@gmail.com">
+            psalmdelrosario@gmail.com
+            </a>
+
+            <a href="https://www.facebook.com/psalm.del.rosario" target="_blank">
+            Facebook Profile
+            </a>
+
+            <a href="tel:+639910353792">
+            +63 991 035 3792
+            </a>
+        </div>
+        </div>
+
+    </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+    <p>© 2026 DEVPsalm. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
